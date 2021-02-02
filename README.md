@@ -20,10 +20,11 @@ Clone o Repositório com `git clone com https://github.com/Leojunkes/meritt-test
 
 Instale as dependências:
 `npm install`
-
+entrar na pasta do projeto :
 `cd meritt-test`
-rodar o servidor local
+rodar o servidor local:
 `npm run server ou yarn run server`
+iniciar localhost:3000 : 
 `npm ou yarn START`
 
 ## License
