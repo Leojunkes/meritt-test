@@ -1,0 +1,21 @@
+#provasP1{
+    height: 700px;
+    width: 315px;
+    position: absolute;
+    
+    right: 25px;
+    top: 162px;
+    background-color: #ffffff;
+    
+}
+
+@media(max-width:766px){
+    #provasP1{
+        height: 700px;
+        width: 315px;
+        position: relative;
+        margin-top: -135px;
+}
+
+
+}

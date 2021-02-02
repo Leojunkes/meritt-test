@@ -1,0 +1,21 @@
+.MuiGrid-spacing-xs-3 > .MuiGrid-item{
+    padding: 12px;
+}
+.MuiGrid-grid-xs-12{
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.MuiGrid-item{
+    margin: 0;
+    box-sizing: border-box;
+}
+#containerGeral{
+    background-color:#f0f1f5;
+    height: 800px;
+}
+
+#RowCard{
+    padding-bottom: 0px;
+    
+}

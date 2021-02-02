@@ -1,0 +1,28 @@
+#provasP{
+    width: 880px;
+    height: 330px;
+    background-color: #ffffff;
+    margin-left: 10px;
+    
+}
+h4{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.card-body{
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    
+    
+}
+.card-body:hover{
+    border: solid;
+    color: #4d9cfb;
+}
+.funcaoCard{
+    background-color:#f59057;
+    color: white;
+    border-radius: 3px;
+    font-size: 13px ;
+    width: 159px;
+}
