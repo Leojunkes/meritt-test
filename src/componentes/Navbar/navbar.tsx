@@ -6,9 +6,9 @@ export default function Navbar() {
   return (
     <nav id="containerHeader" className="navbar navbar-expand-md">
       <div id="contNav" className="container-fluid">
-        <button
+        <label
           className="navbar-toggler"
-          type="button"
+          
           data-bs-toggle="collapse"
           data-bs-target="#melNav"
           aria-controls="melNav"
@@ -16,8 +16,10 @@ export default function Navbar() {
           aria-label="Toggle navigation"
           
         >
-          
-        </button>
+          <i style={{fontSize:28,paddingTop:5, color:"white" }} className="fas fa-bars"></i>
+            <label style={{fontSize:25, paddingLeft:50, color:"white"}}>Somos</label>
+        </label>
+        
 
         <div className="collapse navbar-collapse" id="melNav">
           <div id="melNav1" className="navbar-nav mr-auto">

@@ -1,8 +1,12 @@
 import React from "react";
 import "./ProvasProgreesso.css";
 
+import { Link } from 'react-router-dom';
+
 const Provas = ({ profe }) => (
+  
   <div
+  
     className="container card-body mt-4 ml-3 "
     style={{ backgroundColor: "#ffffff", width: 220 }}
   >
@@ -14,6 +18,7 @@ const Provas = ({ profe }) => (
       title="Number of Customers"
     >
       <div style={{textAlign:"center"}} className="funcaoCard">{profe.funcao}</div>
+      
       <div style={{marginTop:7}}>{profe.materia}</div>
       
     </h5>
@@ -35,6 +40,7 @@ const Provas = ({ profe }) => (
       <span style={{fontSize:12, paddingRight:0}} className="text-nowrap">{profe.data}</span>
     </p>
   </div>
+  
 );
 
 export default Provas;

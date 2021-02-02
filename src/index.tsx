@@ -6,14 +6,18 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./telas/Home/home";
-import Aluno from './telas/Aluno/aluno';
+import Aluno from './telas/Aluno/LiguagensCodigos';
+import Matematica from './telas/Aluno/matematica';
+import Fisica from './telas/Aluno/fisica';
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/aluno" component={Aluno} />
+      <Route path="/linguagenscodigos" component={Aluno} />
+      <Route path="/matematica" component={Matematica} />
+      <Route path="/fisica" component={Fisica} />
     </Switch>
   </BrowserRouter>,
 

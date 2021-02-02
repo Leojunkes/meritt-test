@@ -13,26 +13,17 @@ const Seusresultados = ({ student1 }) => (
       className="font-weight-normal mt-0 text-muted"
       title="Number of Customers"
     >
-      <div style={{textAlign:"center"}} className="funcaoCard">{student1.funcao}</div>
+      <div style={{textAlign:"center"}} className="funcaoCard">{student1.funcao1}</div>
       <div style={{marginTop:7}}>{student1.materia}</div>
     </h5>
 
-    <div className="progress" style={{ height: 4, marginTop:30 }}>
-      <div
-        className="progress-bar bg-danger"
-        role="progressbar"
-        style={{ width: "25%" }}
-      ></div>
-    </div>
+    
     <p className="mb-0 text-muted">
-      <div style={{ paddingTop: 5 }} className="row">
-        <i style={{ paddingTop: 3 }} className="fas fa-clock"></i>
-        <label style={{ paddingLeft: 5 }}>{student1.tempo}</label>
-        <i style={{ marginLeft: 21, paddingTop: 3 }} className="fas fa-th"></i>
-        <label style={{ paddingLeft: 5 }}>{student1.questoes}</label>
-      </div>
+      
       <span style={{fontSize:12, paddingRight:0}} className="text-nowrap">{student1.data}</span>
+      
     </p>
+    <span style={{fontSize:12, paddingRight:0}} className="text-nowrap">{student1.funcao}</span>
   </div>
 );
 

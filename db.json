@@ -50,22 +50,27 @@
       "materia": "Linguagens e Códigos",
       "tempo": "00:20:45",
       "questoes": "15/45",
-      "data": "De 20/12/20 a 20/01/21",
-      "funcao": "Simulado Enem 2021"
+      "data": "Realizada em 31 minutos",
+      "funcao": "entregue em 12/12/2020",
+      "funcao1":"Simulado Enem 2020"
     },
     {
       "id": "5",
       "materia": "Biologia",
       "realizada": "Realizada em 30 minutos",
       "entregue": "Entregue em 27/11/2020",
-      "funcao": "Avaliação trimestral 20.3"
+      "data": "Realizada em 30 minutos",
+      "funcao": "entregue em 27/11/20",
+      "funcao1":"Avaliação trimestral 2020"
     },
     {
       "id": "6",
       "materia": "Química",
       "realizada": "Realizada em 40 minutos",
       "entregue": "Entregue em 27/11/2020",
-      "funcao": "Avaliação trimestral 20.3"
+      "data": "Realizada em 40 minutos",
+      "funcao": "entregue 27/11/20",
+      "funcao1":"Avaliação trimestral 2020"
     }
     
   ],
