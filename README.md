@@ -1,4 +1,4 @@
-# Meritt-test-React-Js
+# Meritt-test-React-Ts
 
 ## Preview
 
