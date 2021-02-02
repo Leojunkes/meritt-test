@@ -8,7 +8,7 @@
      <img src="./src/imagensPreview/Captura de tela de 2021-02-02 01-45-24.png"  width="200"/>
      <img src="./src/imagensPreview/Captura de tela de 2021-02-02 01-46-01.png"  width="200"/>
 
-</p> 
+</p>
 
 ## Sobre a Meritt-test
 
@@ -17,6 +17,9 @@ Teste de front-end empresa Meritt, muito aprendizado colocado em prática, clone
 ## Installation
 
 Clone o Repositório com `git clone com https://github.com/Leojunkes/meritt-test`.
+
+Instale as dependências:
+`npm install`
 
 `cd meritt-test`
 rodar o servidor local
